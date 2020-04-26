@@ -1,5 +1,7 @@
 <template>
-  <div id="app">{{ 'nyako' }}</div>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <script>
