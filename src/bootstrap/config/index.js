@@ -6,5 +6,7 @@ Vue.use({
     Object.defineProperty(Vue.prototype, "$nya",{
       get: () => config
     })
+
+    Vue.nya = config
   }
 })

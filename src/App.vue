@@ -5,12 +5,12 @@
 </template>
 
 <script>
+  import { AppDeviceEnquire } from "./mixin/device/AppDeviceEnquire";
 
-export default {
-  name: 'App',
-  components: {
+  export default {
+    name: 'App',
+    mixins: [AppDeviceEnquire]
   }
-}
 </script>
 
 <style>
